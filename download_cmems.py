@@ -28,7 +28,7 @@ import copernicusmarine
 # ---------------------------------------------------------------------------
 # Settings
 # ---------------------------------------------------------------------------
-OUT_DIR = r"~/Enviro layers"
+OUT_DIR = os.path.expanduser(r"~/Enviro layers")
 
 #Set lat lon bounds
 BBOX = dict(minimum_longitude=-180, maximum_longitude=180,
